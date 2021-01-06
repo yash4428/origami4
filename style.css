@@ -1,0 +1,95 @@
+h1 {
+    background-color:rgb(5, 160, 158);
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+.bg{
+    background-color:#000
+}
+.me{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color:rgb(4, 210, 206);
+    padding:15px;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:400;
+    color:rgb(252, 251, 253);
+    
+}
+body{
+margin:0px;
+background-color:#f8b195;
+}
+
+.camel{
+    border-radius: 20px;
+    padding : 30px;
+    margin:25px;
+   
+    font-family:fantasy;
+    background-color:#355c7d;
+    display:flex;
+ justify-content: space-evenly;
+   
+}
+.chameleon{
+    border-radius: 20px;
+    padding : 30px;
+    margin:25px;
+    font-family:fantasy;
+    background-color:#6c5b7b;
+    display:flex;
+ justify-content: space-evenly;
+   
+}
+.panda{
+    border-radius: 20px;
+    padding : 30px;
+    margin:25px;
+    font-family:fantasy;
+    background-color:#c06c84;
+    display:flex;
+ justify-content: space-evenly;
+   
+}
+.pigeon{
+    border-radius: 20px;
+    padding : 30px;
+    margin:25px;
+    font-family:fantasy;
+    background-color:#f67280;
+    display:flex;
+ justify-content: space-evenly;
+   
+}
+.grid img{
+display: flex;
+flex-direction: column;
+
+}
+a:link{
+    color:white;
+    text-decoration:none;
+}
+
+a:visited{
+    color:aqua
+}
+
+.camel:hover{
+    transform:scale(1.1);
+}
+.panda:hover{
+    transform:scale(1.1);
+}
+.chameleon:hover{
+    transform:scale(1.1);
+}
+.pigeon:hover{
+    transform:scale(1.1);
+}
+
+
+
